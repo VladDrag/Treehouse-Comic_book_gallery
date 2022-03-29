@@ -6,7 +6,7 @@ namespace Treehouse.ComicBookGallery.Controllers
 	{
 		public string Detail()
 		{
-			return "Hello from the ComicBooks Controller! Testing!";
+			return "Hello from the ComicBooks Controller! Testing2!";
 		}
 	}
 }
