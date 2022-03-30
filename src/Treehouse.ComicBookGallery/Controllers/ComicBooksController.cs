@@ -4,9 +4,14 @@ namespace Treehouse.ComicBookGallery.Controllers
 {
 	public class ComicBooksController : Controller
 	{
-		public string Detail()
+		public ActionResult Detail()
 		{
-			return "Hello from the ComicBooks Controller! Testing2!";
+			if (DateTime.Today.DayOfWeek == DayOfWeek.Wednesday)
+			{
+				return Redirect("/");
+			}
+
+			return Content("Learning curve");
 		}
 	}
 }
