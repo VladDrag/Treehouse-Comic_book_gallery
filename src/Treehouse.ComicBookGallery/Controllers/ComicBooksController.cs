@@ -6,12 +6,7 @@ namespace Treehouse.ComicBookGallery.Controllers
 	{
 		public ActionResult Detail()
 		{
-			if (DateTime.Today.DayOfWeek == DayOfWeek.Wednesday)
-			{
-				return Redirect("/");
-			}
-
-			return Content("Learning curve");
+			return View();
 		}
 	}
 }
