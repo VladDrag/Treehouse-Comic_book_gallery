@@ -20,8 +20,9 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+//In order to change the controller 'Home' folder and default Action name, make changes here
 app.MapControllerRoute(
 	name: "default",
-	pattern: "{controller=Home}/{action=Index}/{id?}");
+	pattern: "{controller=ComicBooks}/{action=Index}/{id?}");
 
 app.Run();
