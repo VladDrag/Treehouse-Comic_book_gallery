@@ -19,7 +19,8 @@ namespace Treehouse.ComicBookGallery.Data
                     new Artist() { Name = "Edgar Delgado", Role = "Colors" },
                     new Artist() { Name = "Chris Eliopoulos", Role = "Letters" },
                 },
-                Favorite = false
+                Favorite = false,
+                Id = 0
             },
             new ComicBook()
             {
@@ -34,7 +35,8 @@ namespace Treehouse.ComicBookGallery.Data
                     new Artist() { Name = "Muntsa Vicente", Role = "Colors" },
                     new Artist() { Name = "Joe Caramagna", Role = "Letters" }
                 },
-                Favorite = false
+                Favorite = false,
+                Id = 1
             },
             new ComicBook()
             {
@@ -48,7 +50,8 @@ namespace Treehouse.ComicBookGallery.Data
                     new Artist() { Name = "Jeff Smith", Role = "Inks" },
                     new Artist() { Name = "Jeff Smith", Role = "Letters" }
                 },
-                Favorite = false
+                Favorite = false,
+                Id = 2
             }
         };
 		public ComicBook GetComicBooK(int id)
